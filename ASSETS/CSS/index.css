@@ -1,0 +1,208 @@
+html{
+    width: 100%;
+}
+
+.nav{
+    background-color: #975555;
+    justify-content: space-between;
+    display: flex;
+    height: 13vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.logo{
+    padding-left:2%;
+    margin-top: 0.5%;
+}
+
+.navbar, ul, li{
+    color: white;
+    display: inline-flex;
+    list-style-type: none;
+    padding:15px;
+    padding-right: 50px;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Kaushan Script', cursive;
+
+}
+
+.home{
+    color: aqua;
+    text-decoration: none;
+
+}
+ a:hover{
+     color: blue;
+     
+ }
+
+ .food{
+     color: black;
+     text-decoration: none;
+ }
+
+ .branch{
+     color: chartreuse;
+     text-decoration: none;
+ }
+
+ .contact{
+     color: white;
+     text-decoration: none;
+ }
+
+ .intro{
+    background-image: url(/ASSETS/images/intro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+    height: 100vh;
+    text-align: center;
+}
+
+h2{
+    color: black;
+    font-size: 100px;
+    font-family: 'Kaushan Script', cursive;
+    animation: blinking 1.0s infinite;
+}
+
+@keyframes blinking{
+    0%{  color: yellow; }
+    30%{  color: aqua; }
+    60%{  color: transparent; }
+    97%{  color:transparent; }
+    /* 100%{ color: #000;  } */
+    }
+
+.main{
+    background-image: url("/ASSETS/images/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -40px;
+    height: 135vh;
+}
+img{
+    padding-left:2%;
+    margin-top: 1.5%;
+
+}
+
+ h1{
+     color: blue;
+     text-align: center;
+     font-family: 'Kaushan Script', cursive;
+     font-size: 60px;
+ }
+
+ hr {
+    width: 650px;
+    /* border-color: rgb(64, 224, 211); */
+    border: 3px solid aqua;
+    border-radius: 5px;
+}
+
+.name{
+    text-align: center;
+}
+
+.top{
+    display: flex;
+    border-radius: 5px;
+    width: 100%;
+    justify-content: space-evenly;
+    
+
+}
+
+.one{
+    background-color: aliceblue;
+    text-align: center;
+    width: 30%;
+
+}
+
+.two{
+    background-color: aliceblue;
+    text-align: center;
+    width: 30%;
+}
+
+.three{
+    background-color: aliceblue;
+    text-align: center;
+    width: 30%;
+}
+
+
+.bottom{
+    display: flex;
+    border-radius: 5px;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3{
+    color: chocolate;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+h6{
+    color: black;
+    font-size: 20px;
+}
+
+.comments{
+    width: 30%;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1.5px solid 
+}
+
+footer{
+    height: 32vh;
+    background-color: aqua;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: 'Akaya Kanadaka', cursive;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+h5{
+    font-size: 20px;
+}
+
+.contact1{
+    width: 32%;
+}
+
+.branches{
+    width: 32%;
+}
+
+.offer{
+    width: 32%;
+}
+
+
+.copy{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
