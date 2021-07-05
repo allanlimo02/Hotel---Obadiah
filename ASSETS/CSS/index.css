@@ -57,7 +57,7 @@ html{
  }
 
  .intro{
-    background-image: url(/ASSETS/images/intro.jpg);
+    background-image: url(/ASSETS/intro.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -50px;
